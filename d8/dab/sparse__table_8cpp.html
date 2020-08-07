@@ -98,7 +98,7 @@ $(document).ready(function(){initNavTree('d8/dab/sparse__table_8cpp.html','../..
 </div><!--header-->
 <div class="contents">
 
-<p>Implementation of <a href="https://en.wikipedia.org/wiki/Range_minimum_query#Solution_using_constant_time_and_linearithmic_space">Sparse Table</a> data structure.  
+<p>Implementation of <a href="https://en.wikipedia.org/wiki/Range_minimum_query">Sparse Table</a> data structure.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;vector&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
@@ -128,7 +128,7 @@ Functions</h2></td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Implementation of <a href="https://en.wikipedia.org/wiki/Range_minimum_query#Solution_using_constant_time_and_linearithmic_space">Sparse Table</a> data structure. </p>
+<div class="textblock"><p>Implementation of <a href="https://en.wikipedia.org/wiki/Range_minimum_query">Sparse Table</a> data structure. </p>
 <p>Sparse Table is a data structure, that allows answering range queries. It can answer most range queries in O(logn), but its true power is answering range minimum queries or equivalent range maximum queries). For those queries it can compute the answer in O(1) time.</p>
 <p>Running Time Complexity Build : O(NlogN) Range Query : O(1) </p>
 </div><h2 class="groupheader">Function Documentation</h2>
@@ -147,18 +147,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Main function </p>
-<div class="fragment"><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;           {</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">int</span> n = 0;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; n;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a> A(n+5);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0 ; i &lt; n ; i++) {</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; A[i];</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a> logs = <a class="code" href="../../dd/d69/namespacerange__queries.html#ab559cdebcd43619f124bf76caca4c562">range_queries::computeLogs</a>(n);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a> &gt;  table = <a class="code" href="../../dd/d69/namespacerange__queries.html#ab5bca344e8d5417a19799c0a39b391e3">range_queries::buildTable</a>(n, A, logs);</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Minimum of the range [3, 14]: &quot;</span> &lt;&lt; <a class="code" href="../../dd/d69/namespacerange__queries.html#a8fe01264aafdedd47595b9567a34d782">range_queries::getMinimum</a>(2, 13, logs, table) &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;           {</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">int</span> n = 0;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; n;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a> A(n+5);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0 ; i &lt; n ; i++) {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a> &gt;&gt; A[i];</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;int&gt;</a> logs = <a class="code" href="../../dd/d69/namespacerange__queries.html#ab559cdebcd43619f124bf76caca4c562">range_queries::computeLogs</a>(n);</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt;std::vector&lt;int&gt;</a> &gt;  table = <a class="code" href="../../dd/d69/namespacerange__queries.html#ab5bca344e8d5417a19799c0a39b391e3">range_queries::buildTable</a>(n, A, logs);</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a> &lt;&lt; <span class="stringliteral">&quot;Minimum of the range [3, 14]: &quot;</span> &lt;&lt; <a class="code" href="../../dd/d69/namespacerange__queries.html#a8fe01264aafdedd47595b9567a34d782">range_queries::getMinimum</a>(2, 13, logs, table) &lt;&lt; <a class="codeRef" target="_blank" href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -171,10 +171,10 @@ Here is the call graph for this function:</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="avector_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/container/vector.html">std::vector&lt; int &gt;</a></div></div>
-<div class="ttc" id="anamespacerange__queries_html_ab559cdebcd43619f124bf76caca4c562"><div class="ttname"><a href="../../dd/d69/namespacerange__queries.html#ab559cdebcd43619f124bf76caca4c562">range_queries::computeLogs</a></div><div class="ttdeci">std::vector&lt; int &gt; computeLogs(int n)</div><div class="ttdef"><b>Definition:</b> sparse_table.cpp:30</div></div>
+<div class="ttc" id="anamespacerange__queries_html_ab559cdebcd43619f124bf76caca4c562"><div class="ttname"><a href="../../dd/d69/namespacerange__queries.html#ab559cdebcd43619f124bf76caca4c562">range_queries::computeLogs</a></div><div class="ttdeci">std::vector&lt; int &gt; computeLogs(int n)</div><div class="ttdef"><b>Definition:</b> sparse_table.cpp:29</div></div>
 <div class="ttc" id="abasic_ostream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_ostream.html">std::cout</a></div></div>
-<div class="ttc" id="anamespacerange__queries_html_a8fe01264aafdedd47595b9567a34d782"><div class="ttname"><a href="../../dd/d69/namespacerange__queries.html#a8fe01264aafdedd47595b9567a34d782">range_queries::getMinimum</a></div><div class="ttdeci">int getMinimum(int beg, int end, const std::vector&lt; int &gt; &amp;logs, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;table)</div><div class="ttdef"><b>Definition:</b> sparse_table.cpp:71</div></div>
-<div class="ttc" id="anamespacerange__queries_html_ab5bca344e8d5417a19799c0a39b391e3"><div class="ttname"><a href="../../dd/d69/namespacerange__queries.html#ab5bca344e8d5417a19799c0a39b391e3">range_queries::buildTable</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; int &gt; &gt; buildTable(int n, const std::vector&lt; int &gt; &amp;A, const std::vector&lt; int &gt; &amp;logs)</div><div class="ttdef"><b>Definition:</b> sparse_table.cpp:46</div></div>
+<div class="ttc" id="anamespacerange__queries_html_a8fe01264aafdedd47595b9567a34d782"><div class="ttname"><a href="../../dd/d69/namespacerange__queries.html#a8fe01264aafdedd47595b9567a34d782">range_queries::getMinimum</a></div><div class="ttdeci">int getMinimum(int beg, int end, const std::vector&lt; int &gt; &amp;logs, const std::vector&lt; std::vector&lt; int &gt; &gt; &amp;table)</div><div class="ttdef"><b>Definition:</b> sparse_table.cpp:70</div></div>
+<div class="ttc" id="anamespacerange__queries_html_ab5bca344e8d5417a19799c0a39b391e3"><div class="ttname"><a href="../../dd/d69/namespacerange__queries.html#ab5bca344e8d5417a19799c0a39b391e3">range_queries::buildTable</a></div><div class="ttdeci">std::vector&lt; std::vector&lt; int &gt; &gt; buildTable(int n, const std::vector&lt; int &gt; &amp;A, const std::vector&lt; int &gt; &amp;logs)</div><div class="ttdef"><b>Definition:</b> sparse_table.cpp:45</div></div>
 <div class="ttc" id="aendl_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/manip/endl.html">std::endl</a></div><div class="ttdeci">T endl(T... args)</div></div>
 <div class="ttc" id="abasic_istream_html"><div class="ttname"><a href="http://en.cppreference.com/w/cpp/io/basic_istream.html">std::cin</a></div></div>
 <!-- start footer part -->
