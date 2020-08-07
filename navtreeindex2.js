@@ -124,6 +124,11 @@ var NAVTREEINDEX2 =
 "d8/dab/classstatistics_1_1stats__computer2.html#ade6de704deea24fdc88077b3d9a0d534":[7,0,6,1,1],
 "d8/dab/classstatistics_1_1stats__computer2.html#ae1bfd81bd7bbbd4b0d51d7d956e532d2":[7,0,6,1,8],
 "d8/dab/classstatistics_1_1stats__computer2.html#af6198817084276113b3c064e87ce0555":[7,0,6,1,3],
+"d8/dab/sparse__table_8cpp.html":[8,0,11,1],
+"d8/dab/sparse__table_8cpp.html#a2680d582a3898a39bb39591919467ad7":[8,0,11,1,0],
+"d8/dab/sparse__table_8cpp.html#a7db3c879b56fa661a441ec5ee421f632":[8,0,11,1,2],
+"d8/dab/sparse__table_8cpp.html#ab0b91fd8bb0ed0070db04885ef8c4a01":[8,0,11,1,1],
+"d8/dab/sparse__table_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4":[8,0,11,1,3],
 "d8/dc8/struct_point.html":[7,0,28],
 "d8/dc8/struct_point.html#a2e1b5fb2b2a83571f5c0bc0f66a73cf7":[7,0,28,3],
 "d8/dc8/struct_point.html#a8c779e11e694b20e0946105a9f5de842":[7,0,28,1],
@@ -189,8 +194,8 @@ var NAVTREEINDEX2 =
 "d9/d66/group__machine__learning.html#ga72699c805c19a6cc47a937a6f3378afa":[8,0,6,2,5],
 "d9/d66/group__machine__learning.html#gab53c14440b2b2dd3172c66afc5c2f63f":[8,0,6,1,3],
 "d9/d66/group__machine__learning.html#gab53c14440b2b2dd3172c66afc5c2f63f":[5,1,5],
-"d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[8,0,6,1,1],
 "d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[8,0,6,2,1],
+"d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[8,0,6,1,1],
 "d9/d66/group__machine__learning.html#gaf5ce14f026d6d231bef29161bac2b485":[5,1,4],
 "d9/d69/median__search_8cpp.html":[8,0,12,8],
 "d9/d69/median__search_8cpp.html#a3a66390d0e407dce4fcbf63a169c6c8f":[8,0,12,8,1],
@@ -244,10 +249,5 @@ var NAVTREEINDEX2 =
 "da/d5a/class_complex.html#ae1e03712837450549e0c9b4017533a41":[7,0,10,3],
 "da/d5a/class_complex.html#ae5b51b749ea4964104b9527af9d8f556":[7,0,10,2],
 "da/d5a/class_complex.html#af8aacf982e2e6c142921bc850f6dc974":[7,0,10,4],
-"da/d77/spirograph_8cpp.html":[8,0,4,0],
-"da/d77/spirograph_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627":[8,0,4,0,1],
-"da/d77/spirograph_8cpp.html#a525335710b53cb064ca56b936120431e":[8,0,4,0,0],
-"da/d77/spirograph_8cpp.html#a8e83a64e8443fff1e5ffdc1c299c1e99":[8,0,4,0,3],
-"da/d77/spirograph_8cpp.html#aeca22dbe4563358960e907a40cd3e1ac":[8,0,4,0,2],
-"da/d7b/primality__test_8cpp.html":[8,0,9,10]
+"da/d77/spirograph_8cpp.html":[8,0,4,0]
 };
