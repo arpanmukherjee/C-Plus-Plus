@@ -162,7 +162,7 @@ var NAVTREEINDEX0 =
 "d2/dc4/classstack__linked_list.html#aa34ec2024dcfe130e6458149093772b3":[7,0,36,5],
 "d2/dc4/classstack__linked_list.html#af12688f7e4d74a978c93d5b26199a208":[7,0,36,1],
 "d2/dcf/namespacestatistics.html":[7,0,6],
-"d2/dcf/namespacestatistics.html":[6,0,10],
+"d2/dcf/namespacestatistics.html":[6,0,11],
 "d3/d06/ode__semi__implicit__euler_8cpp.html":[8,0,8,11],
 "d3/d06/ode__semi__implicit__euler_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97":[8,0,8,11,1],
 "d3/d06/ode__semi__implicit__euler_8cpp.html#aa13517b8e5de1b75592052db7f7e237f":[8,0,8,11,3],

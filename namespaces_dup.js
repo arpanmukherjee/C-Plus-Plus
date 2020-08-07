@@ -8,6 +8,7 @@ var namespaces_dup =
     [ "machine_learning", "d8/d77/namespacemachine__learning.html", null ],
     [ "qr_algorithm", "d2/d3b/namespaceqr__algorithm.html", null ],
     [ "quadratic_probing", "d4/dd2/namespacequadratic__probing.html", null ],
+    [ "range_queries", "dd/d69/namespacerange__queries.html", null ],
     [ "sorting", "d5/d91/namespacesorting.html", null ],
     [ "spirograph", "da/dd3/namespacespirograph.html", null ],
     [ "statistics", "d2/dcf/namespacestatistics.html", null ],

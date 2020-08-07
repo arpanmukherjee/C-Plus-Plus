@@ -55,7 +55,7 @@ var NAVTREEINDEX3 =
 "da/dd1/structquadratic__probing_1_1_entry.html":[7,0,5,0],
 "da/dd1/structquadratic__probing_1_1_entry.html#a75f72858f08a2fc8b94402de98db12d8":[7,0,5,0,1],
 "da/dd1/structquadratic__probing_1_1_entry.html#a9df1118010a233d13ab3dd699bcb513e":[7,0,5,0,0],
-"da/dd3/namespacespirograph.html":[6,0,9],
+"da/dd3/namespacespirograph.html":[6,0,10],
 "da/de7/decimal__to__hexadecimal_8cpp.html":[8,0,9,2],
 "da/de7/decimal__to__hexadecimal_8cpp.html#a840291bc02cba5474a4cb46a9b9566fe":[8,0,9,2,0],
 "da/df2/durand__kerner__roots_8cpp.html":[8,0,8,2],
