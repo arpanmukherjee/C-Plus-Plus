@@ -62,7 +62,7 @@ var searchData=
   ['complex_245',['Complex',['../da/d5a/class_complex.html',1,'Complex'],['http://en.cppreference.com/w/cpp/numeric/complex.html',0,'std::complex'],['../da/d5a/class_complex.html#a3cfc522c782726f49ee20af17b77f867',1,'Complex::Complex(double x=0.f, double y=0.f, bool is_polar=false)'],['../da/d5a/class_complex.html#a466cd7b664cc6a864937ceb3dead1323',1,'Complex::Complex(const Complex &amp;other)'],['http://en.cppreference.com/w/cpp/numeric/complex/complex.html',0,'std::complex::complex()']]],
   ['complex_5fnumbers_2ecpp_246',['complex_numbers.cpp',['../d5/d67/complex__numbers_8cpp.html',1,'']]],
   ['complex_5fstr_247',['complex_str',['../da/df2/durand__kerner__roots_8cpp.html#a3bada3e58ad8d1b00918db2ffe83a740',1,'durand_kerner_roots.cpp']]],
-  ['computelogs_248',['computeLogs',['../d8/dab/sparse__table_8cpp.html#a09f403f9588b51be2f626da412ec4e56',1,'SparseTable']]],
+  ['computelogs_248',['computeLogs',['../dd/d69/namespacerange__queries.html#ab559cdebcd43619f124bf76caca4c562',1,'range_queries']]],
   ['condition_5fvariable_249',['condition_variable',['http://en.cppreference.com/w/cpp/thread/condition_variable.html',0,'std::condition_variable'],['http://en.cppreference.com/w/cpp/thread/condition_variable/condition_variable.html',0,'std::condition_variable::condition_variable()']]],
   ['condition_5fvariable_5fany_250',['condition_variable_any',['http://en.cppreference.com/w/cpp/thread/condition_variable_any.html',0,'std::condition_variable_any'],['http://en.cppreference.com/w/cpp/thread/condition_variable_any/condition_variable_any.html',0,'std::condition_variable_any::condition_variable_any()']]],
   ['conditional_251',['conditional',['http://en.cppreference.com/w/cpp/types/conditional.html',0,'std']]],

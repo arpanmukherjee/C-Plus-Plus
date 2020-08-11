@@ -40,7 +40,7 @@ var searchData=
   ['compare_5fexchange_5fweak_2838',['compare_exchange_weak',['http://en.cppreference.com/w/cpp/atomic/atomic/compare_exchange.html',0,'std::atomic']]],
   ['complex_2839',['Complex',['../da/d5a/class_complex.html#a3cfc522c782726f49ee20af17b77f867',1,'Complex::Complex(double x=0.f, double y=0.f, bool is_polar=false)'],['../da/d5a/class_complex.html#a466cd7b664cc6a864937ceb3dead1323',1,'Complex::Complex(const Complex &amp;other)'],['http://en.cppreference.com/w/cpp/numeric/complex/complex.html',0,'std::complex::complex()']]],
   ['complex_5fstr_2840',['complex_str',['../da/df2/durand__kerner__roots_8cpp.html#a3bada3e58ad8d1b00918db2ffe83a740',1,'durand_kerner_roots.cpp']]],
-  ['computelogs_2841',['computeLogs',['../d8/dab/sparse__table_8cpp.html#a09f403f9588b51be2f626da412ec4e56',1,'SparseTable']]],
+  ['computelogs_2841',['computeLogs',['../dd/d69/namespacerange__queries.html#ab559cdebcd43619f124bf76caca4c562',1,'range_queries']]],
   ['condition_5fvariable_2842',['condition_variable',['http://en.cppreference.com/w/cpp/thread/condition_variable/condition_variable.html',0,'std::condition_variable']]],
   ['condition_5fvariable_5fany_2843',['condition_variable_any',['http://en.cppreference.com/w/cpp/thread/condition_variable_any/condition_variable_any.html',0,'std::condition_variable_any']]],
   ['const_5fpointer_5fcast_2844',['const_pointer_cast',['http://en.cppreference.com/w/cpp/memory/shared_ptr/pointer_cast.html',0,'std']]],
