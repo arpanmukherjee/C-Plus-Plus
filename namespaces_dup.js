@@ -10,6 +10,7 @@ var namespaces_dup =
     [ "quadratic_probing", "d4/dd2/namespacequadratic__probing.html", null ],
     [ "range_queries", "dd/d69/namespacerange__queries.html", null ],
     [ "sorting", "d5/d91/namespacesorting.html", null ],
+    [ "sparse_table", "d9/d55/namespacesparse__table.html", null ],
     [ "spirograph", "da/dd3/namespacespirograph.html", null ],
     [ "statistics", "d2/dcf/namespacestatistics.html", null ],
     [ "std", "d8/dcc/namespacestd.html", null ],

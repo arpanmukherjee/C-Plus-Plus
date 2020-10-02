@@ -110,8 +110,8 @@ var NAVTREEINDEX =
 "annotated.html",
 "d4/d68/qr__decompose_8h_source.html",
 "d6/dcd/md__c_o_n_t_r_i_b_u_t_i_n_g.html#autotoc_md11",
-"da/d7b/primality__test_8cpp.html",
-"dd/d1c/classhash__chain.html#ae9ddce410015ed8dda6380130d82d6c2"
+"da/d77/spirograph_8cpp.html",
+"dd/d1c/classhash__chain.html#a6b4b4de1a8c96f98a63a77f650a9dcff"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
